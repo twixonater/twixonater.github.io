@@ -1,10 +1,8 @@
-
-
+/* General */
 aside {
 	float: left;
 	padding-left: 5%;
-	padding-top: 15%;
-	background-color: blue;
+	/*background-color: blue;*/
 }
 
 a.sidenavitem {
@@ -18,9 +16,10 @@ a.sidenavitem {
 }
 
 a:hover {
-	font-size: 45px;
+	font-size: 40px;
 	font-weight: 600;
 }
+
 
 /* Logo */
 .logoheader {
@@ -28,31 +27,36 @@ a:hover {
 }
 
 
-/* Programs */
-.programs {
-	float: left;
-	padding-top: 100px;
+/*Work*/
+.work {
+	display: inline-block;
 	padding-left: 5%;
-	background-color: purple;
 }
+
+.worktitle {
+	padding-bottom: 15px;
+}
+
+
+/* Programs */
+.skillset {
+	display: inline-block;
+	padding-left: 5%;
+}
+
 .skillslist {
 	display: inline-block;
+	padding-right: 30px;
 }
 
 ul {
 	padding-top: 2%;
-	padding-left: 2%;
 }
 
 li {
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: 100;
 	list-style-type: none;
 }
 
 
-/* second line of content */
-.secondline {
-	
-
-}

@@ -42,8 +42,9 @@ nav {
 
 
 /* main section*/
-.maincontent{
+.maincontent {
 	width: 100%;
+	padding-top: 5%;
 }
 
 
@@ -61,3 +62,7 @@ h3 {
 	color: #545161; /*darkgrey*/
 }
 
+h4 {
+	font-size: 30px;
+	font-weight: 100;
+}

@@ -1,9 +1,15 @@
+/* General */
+body {
+	background-image: url("../images/samoportrait_purple_v2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-
+/* Navigation */
 a.topnavitem {
 	float:left;
 	margin-right: 2%;
-	padding: 30px 20px 10px 20px;
+	padding: 40px 20px 10px 0px;
 
 
 	font-size: 26px;
@@ -14,9 +20,10 @@ a.topnavitem {
 }
 
 a:hover {
-	font-size: 45px;
+	font-size: 26px;
 	font-weight: 600;
 }
+
 
 /* Logo */
 .logolanding {
