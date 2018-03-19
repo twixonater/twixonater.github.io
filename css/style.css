@@ -1,0 +1,63 @@
+/* Font Families
+font-family: 'Josefin Sans', sans-serif;
+
+*/
+
+/* General Styles */
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.clearfix::after {
+  	clear: both;
+  	content: "";
+  	display: block;
+  	height: 0;
+  	visibility: hidden;
+}
+
+body {
+	/*background-color: rgba(119, 149, 198, 1);*/
+}
+
+p {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+
+
+
+/* Header */
+header {
+	padding-left: 5%;	
+}
+
+nav {
+
+}
+
+
+/* main section*/
+.maincontent{
+	width: 100%;
+}
+
+
+h2 {
+	font-size: 60px;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #545161; /*darkgrey*/
+}
+
+h3 {
+	font-size: 40px;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #545161; /*darkgrey*/
+}
+

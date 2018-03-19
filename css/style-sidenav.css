@@ -1,0 +1,58 @@
+
+
+aside {
+	float: left;
+	padding-left: 5%;
+	padding-top: 15%;
+	background-color: blue;
+}
+
+a.sidenavitem {
+	display: block;
+	padding-bottom: 40px;
+	font-size: 40px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #525161; /*darkgrey*/
+}
+
+a:hover {
+	font-size: 45px;
+	font-weight: 600;
+}
+
+/* Logo */
+.logoheader {
+	padding-top: 30px;
+}
+
+
+/* Programs */
+.programs {
+	float: left;
+	padding-top: 100px;
+	padding-left: 5%;
+	background-color: purple;
+}
+.skillslist {
+	display: inline-block;
+}
+
+ul {
+	padding-top: 2%;
+	padding-left: 2%;
+}
+
+li {
+	font-size: 20px;
+	font-weight: 100;
+	list-style-type: none;
+}
+
+
+/* second line of content */
+.secondline {
+	
+
+}

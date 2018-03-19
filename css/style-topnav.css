@@ -1,0 +1,27 @@
+
+
+a.topnavitem {
+	float:left;
+	margin-right: 2%;
+	padding: 30px 20px 10px 20px;
+
+
+	font-size: 26px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #525161; /*darkgrey*/
+}
+
+a:hover {
+	font-size: 45px;
+	font-weight: 600;
+}
+
+/* Logo */
+.logolanding {
+	padding-top: 26%;
+	padding-left: 5%;
+}
+
+

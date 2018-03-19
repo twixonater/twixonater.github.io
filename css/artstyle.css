@@ -1,0 +1,40 @@
+/* General Styles */
+body {
+	background-image: url("../images/blackbrick.jpg");
+}
+
+
+/* Header */
+.logoheader {
+	padding-top: 50px; 
+}
+
+h2 {
+	color: white;
+	font-weight: 300;	
+}
+
+h3 {
+	color: white;
+	font-weight: 300;	
+}
+
+/* Section One- Art Section*/
+.artbackground {
+	background-image: url("../images/blackbrick.jpg"); 
+	height: 768px;
+	padding-left: 5%;
+}
+
+.noframe {
+	display: inline-block;
+	height: 400px;
+	background-color: black;
+}
+img {
+	height: 100%;
+}
+
+img:hover {
+    opacity: 0.75;
+}
