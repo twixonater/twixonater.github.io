@@ -1,7 +1,6 @@
 /* Font Families
 font-family: 'Josefin Sans', sans-serif;
 
-*/
 
 /* General Styles */
 * {
@@ -20,14 +19,21 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
-	/*background-color: rgba(119, 149, 198, 1);*/
+	background-image: url("../images/background_splatter_0101.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-p {
-	font-size: 20px;
-	font-weight: 100;
+
+/* Logo */
+.logolanding {
+	padding-top: 26%;
+	padding-left: 5%;
 }
 
+.logoheader {
+	padding-top: 30px;
+}
 
 
 
@@ -66,3 +72,89 @@ h4 {
 	font-size: 30px;
 	font-weight: 100;
 }
+
+p {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+
+
+/*Top Nav Styles */
+a.topnavitem {
+	float:left;
+	margin-right: 2%;
+	padding: 40px 20px 10px 0px;
+
+	font-size: 26px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #525161; /*darkgrey*/
+}
+
+/*a:hover {
+	font-size: 26px;
+	font-weight: 600;
+}*/
+
+
+/* General side nav styles */
+aside {
+	float: left;
+	padding-left: 5%;
+	/*background-color: blue;*/
+}
+
+a.sidenavitem {
+	display: block;
+	padding-bottom: 40px;
+	font-size: 40px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #525161; /*darkgrey*/
+}
+
+/*a:hover {
+	font-size: 40px;
+	font-weight: 600;
+}*/
+
+
+
+
+
+/*Work*/
+.work {
+	display: inline-block;
+	padding-left: 5%;
+}
+
+.worktitle {
+	padding-bottom: 15px;
+}
+
+
+/* Programs */
+.skillset {
+	display: inline-block;
+	padding-left: 5%;
+}
+
+.skillslist {
+	display: inline-block;
+	padding-right: 30px;
+}
+
+ul {
+	padding-top: 2%;
+}
+
+li {
+	font-size: 30px;
+	font-weight: 100;
+	list-style-type: none;
+}
+
+
