@@ -33,6 +33,7 @@ body {
 
 .logoheader {
 	padding-top: 30px;
+	display: none;
 }
 
 
@@ -103,7 +104,7 @@ a.topnavitem {
 aside {
 	float: left;
 	padding-left: 5%;
-	/*background-color: blue;*/
+	display: none;
 }
 
 a.sidenavitem {
