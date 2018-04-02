@@ -1,161 +1,329 @@
-/* Font Families
-font-family: 'Josefin Sans', sans-serif;
 
 
-/* General Styles */
 * {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
-	font-family: 'Josefin Sans', sans-serif;
 }
 
-.clearfix::after {
-  	clear: both;
-  	content: "";
-  	display: block;
-  	height: 0;
-  	visibility: hidden;
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
+
+/*General Styles */
 body {
 	background-image: url("../images/background_splatter_0101.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	display: block;
+	padding: 50px 5%;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+p,
+ul {
+	font-size: 18px;
+	font-weight: 300;
 }
 
 
 /* Logo */
-.logolanding {
-	padding-top: 26%;
-	padding-left: 5%;
-}
-
 .logoheader {
-	padding-top: 30px;
-	display: none;
+	display: inline-block;
+	float: left;
 }
-
-
-
-/* Header */
-header {
-	padding-left: 5%;	
-}
-
-nav {
-
-}
-
-
-/* main section*/
-.maincontent {
-	width: 100%;
-	padding-top: 5%;
-}
-
 
 h2 {
 	font-size: 60px;
-	font-weight: 100;
+	font-weight: 300;
 	text-transform: uppercase;
-	color: #545161; /*darkgrey*/
+	margin: 0px 20px;
+}
+
+.logo {
+	font-size: 60px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+
+/* Index Nav*/
+/*section spacing*/
+.work {
+	display: none;
+	padding-left: 18%;
+	padding-top: 2%;
+}
+.skill{
+	display: none;
+	padding-left: 34%;
+	padding-top: 2%;
+}
+.portfolio{
+	display: none;
+	padding-left: 40%;
+	padding-top: 2%;
+}
+.resume{
+	display: none;
+	padding-left: 34%;
+	padding-top: 2%;
+}
+.contact{
+	display: none;
+	padding-left: 44%;
+	padding-top: 2%;
+}
+
+.sidenav {
 }
 
 h3 {
-	font-size: 40px;
-	font-weight: 100;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 300;
 	text-transform: uppercase;
-	color: #545161; /*darkgrey*/
+
+	padding-top: 10px;
 }
 
 h4 {
 	font-size: 30px;
-	font-weight: 100;
-}
-
-p {
-	font-size: 20px;
-	font-weight: 100;
+	font-weight: 400;
 }
 
 
-
-/*Top Nav Styles */
-a.topnavitem {
-	float:left;
-	margin-right: 2%;
-	padding: 40px 20px 10px 0px;
-
-	font-size: 26px;
-	font-weight: 300;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #525161; /*darkgrey*/
+.pm {
+	text-align: right;
 }
 
-/*a:hover {
-	font-size: 26px;
-	font-weight: 600;
-}*/
-
-
-/* General side nav styles */
-aside {
+.lefty {
 	float: left;
-	padding-left: 5%;
-	display: none;
 }
 
-a.sidenavitem {
+.righty {
+	float: right;
+}
+
+/* Main Content*/
+.maincontent {
 	display: block;
-	padding-bottom: 40px;
-	font-size: 40px;
-	font-weight: 300;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #525161; /*darkgrey*/
+	height: 700px;
+	width: 100%;
 }
 
-/*a:hover {
-	font-size: 40px;
-	font-weight: 600;
-}*/
 
 
+/*Sections*/
+.homeitems,
+.workhistory,
+.skillset,
+.portfolioitems,
+.resumeHelpText,
+.contactForm {
+	display: none;
+	padding-left: 10%;
+	float: left;
+	height: 100%;
+	width: 80%;
+}
+.heroImage {
+	height: 130px;
+	width: 130px;
+	background-size: contain;
+	display: block;
+	margin: 10px;
+}
 
+.sidehomeitems{
+	height: 700px;
+	width: 20%;
+	margin-right: 3%;
+}
 
+.displayNewContent{
+	vertical-align: center;
+	background-image: url("../images/gallery/treefall.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 70%;
+	height: 70%;
+	margin-top: 10px;
+}
 
-/*Work*/
-.work {
-	display: inline-block;
-	padding-left: 5%;
+.artImage{
+	background-image: url("../images/gallery/bronze_tree_400x400.jpg");
+}
+
+.workImage{
+	background-image: url("../images/gallery/pinkleaves_400x400.jpg");
+}
+
+.contactImage{
+	background-image: url("../images/gallery/tree_pond_400x400.jpg");
 }
 
 .worktitle {
-	padding-bottom: 15px;
+	padding-top: 15px;
 }
 
-
-/* Programs */
-.skillset {
-	display: inline-block;
-	padding-left: 5%;
-}
-
-.skillslist {
-	display: inline-block;
-	padding-right: 30px;
-}
-
-ul {
-	padding-top: 2%;
+.dates {
+	font-weight: 400;
 }
 
 li {
-	font-size: 30px;
-	font-weight: 100;
 	list-style-type: none;
+	padding-top: 10px;
 }
 
+/*Gallery styles*/
+.textWhite {
+	color: white;
+	padding-top: 30px;
+	padding-left: 5px;
+}
+
+.portbox {
+	background-position: center center;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin: 10px 10px;
+}
+
+.galleryLarge{
+	display: none;
+	height: 100%;
+	width: 100%;
+}
+
+.bigImage {
+	display: block;
+}
+
+.tiles{
+	display: flex;
+	justify-content: space-around;
+	background-size: contain;
+	height: 40px;
+	width: 40px;
+	margin: 10px;
+	float: left;
+}
+
+.btn {
+	color: black;
+	border: 1px solid grey;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 20%;
+	user-select: none;
+	display: block;
+}
+
+img {
+	display: none;
+	height: 80%;
+	width: 80%;
+	padding-right: 100px;
+	padding-bottom: 20px;
+}
+
+.imageCaption{
+	display: none;
+	margin-bottom: 10px;
+}
+
+.imageCaptions{
+	display: block;
+}
+
+.active{
+	display: inline-block;
+}
+
+.one {
+	background-image: url("../images/gallery/bronze_tree_400x400.jpg");
+}
+
+
+
+.two {
+	background-image: url("../images/gallery/clochetree_400x400.jpg");
+}
+
+
+.three {
+	background-image: url("../images/gallery/walkingtree_red_400x400.jpg");
+}
+
+
+
+.four {
+	background-image: url("../images/gallery/pinkleaves_400x400.jpg");
+}
+
+
+
+.five {
+	background-image: url("../images/gallery/smallclochetree_400x400.jpg");
+}
+
+.six {
+	background-image: url("../images/gallery/tree_pond_400x400.jpg");
+}
+
+
+
+.seven{
+	background-image: url("../images/gallery/treebag_400x400.jpg");
+}
+
+
+
+.eight{
+	background-image: url("../images/gallery/white_tree_400x400.jpg");
+}
+
+
+.nine {
+	background-image: url("../images/gallery/treenightlight_400x400.jpg");
+}
+
+/* Resume*/
+.downloadRes {
+	font-size: 20px;
+}
+	
+
+/* Footer */
+footer {
+	background-color: grey;
+	width: 100%;
+	padding: 20px 50px;
+	display: block;
+	margin-top: 50px;
+}
+
+.socialbutton {
+	height: 40px;
+	width: 40px;
+}
+
+.social {
+	display: block;
+}
 
