@@ -6,7 +6,7 @@
   	<link rel="stylesheet" href="css/style.css" type="text/css" />
 
  	<!--font-->
- 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css?family=Lato:900|Roboto:300,400" rel="stylesheet">
 
  	<!--jQuery-->
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -19,222 +19,237 @@
 </head>
 
 <body>
-
-<!--Header-->
-<div class="modalgallery">
-	<header class="clearfix">
-
-<!--logo-->	
-		<div class="logoheader">
-			<h2 class="logo">Samo Davis</h2>
-
-		</div>
-
+	<header>
+		<h2 class="logo">Samo Davis</h2>
+		<nav>
+			<a class="worknav" href="index.html#workhistory"><h3 class="navitems">Work</h3></a>
+			<a class="skillsnav" href="index.html#skillset"><h3 class="navitems">Skills</h3></a>
+			<a class="artnav" href="index.html#artgallery"><h3 class="navitems">Art</h3></a>
+			<a class="resumenav" href="index.html#resumedownload"><h3 class="navitems">Bio</h3></a>
+			<a class="contactnav" href="index.html#contactform"><h3 class="navitems">Contact</h3></a>
+			<div class="close-nav">
+          		<span class="left"></span><span class="right"></span>
+        	</div>
+		</nav>
+			<div class="hamburger">
+	        <span></span><span></span><span></span>
+	      	</div>	
 	</header>
 
+	
+	<main>
 <!--Main Section-->
-	<section class="maincontent">
-		<div class="sidenav">
-			<div class="clearfix work">
-				<p class="fadesout">I am a</p>
-				<h3 class="lefty pm fadesout">Project Manager<br>Designer | Developer<br>Artist</h3>
-				<h2 class="lefty navitem">Work</h2>
-			</div>
+<!--Hero Section-->			
+	<section class ="heroGallery">
+		<div class="heroVideo">
+			
 
-			<div class="clearfix skill">
-				<h2 class="lefty navitem">Skills</h2>
-				<h3 class="lefty fadesout">Software Implementation<br>Social Media Strategy<br>Web Management</h3>
-			</div>	
 
-			<div class="clearfix portfolio">
-				<h3 class="lefty pm fadesout">Check out my Art</h3>
-				<h2 class="lefty navitem">Portfolio</h2>
-				<h3 class="lefty pm fadesout">here</h3>
-			</div>	
-
-			<div class="clearfix resume">
-				<h3 class="lefty pm fadesout">Download My</h3>
-				<h2 class="lefty navitem">Resume</h2>
-			</div>	
-
-			<div class="clearfix contact">
-				<h2 class="lefty navitem">Contact</h2>
-				<h3 class="lefty fadesout">me to Collaborate</h3>
-			</div>			
 		</div>	
+	</section>
 
-<!--Home Content-->
-		<div class="homeitems clearfix">
-			<div class="sidehomeitems lefty">
-				<div class="heroImage artImage"></div>
-				<div class="heroImage workImage"></div>
-				<div class="heroImage contactImage"></div>
-			</div>	
-			<div class="displayNewContent lefty">
-				<!-- <video width="320" height="240" autoplay>
-				  <source src="movie.mp4" type="video/mp4">
-				  <source src="movie.ogg" type="video/ogg">
-				  Your browser does not support the video tag.
-				</video> -->
+<!--Intro-->	
+		<div class="work">
+				<p class="iAm">I am a</p>
+				<h3 class="pm">Project Manager<br>Designer | Developer<br>Artist</h3>
+				<h2 class="navitem">Work</h2>
 			</div>
-		</div>		
+
+			<div class="skill">
+				<h2 class="navitem">Skills</h2>
+				<h3>Software Implementation<br>Social Media Strategy<br>Web Management</h3>
+			</div>	
+
+			<div class="art">
+				<h3 class="pm ">Check out my</h3>
+				<h2 class="navitem">Art</h2>
+				<h3 class="pm ">portfolio</h3>
+			</div>	
+
+			<div class="resume">
+				<h3 class="pm ">Download My</h3>
+				<h2 class="navitem">Bio</h2>
+			</div>	
+
+			<div class="contact">
+				<h2 class="navitem">Contact</h2>
+				<h3>me to Collaborate</h3>
+			</div>			
+		</div>
 
 
-<!-- Work-->
-		<div class="workhistory">
-			<h4>The Durst Organization</h4>
+<!--Work Section-->
+
+	<section class="workhistory clearfix" id="workhistory">
+		<div class="lefthere">
+			<h3>The Durst Organization</h3>
 			<div class="worktitle">
-				<h3>Manager of Digital Content</h3> 
+				<h4>Manager of Digital Content</h4> 
 				<p class="dates">May 2016 - February 2018</p>
 			</div>
 
 			<div class="worktitle">
-				<h3>Digital Content Administrator</h3>
+				<h4>Digital Content Administrator</h4>
 				<p class="dates">July 2013 - May 2016</p>
 			</div>
 
 			<div class="worktitle">	
-				<h3>Project Coordinator</h3>
+				<h4>Project Coordinator</h4>
 				<p class="dates">January 2011  - July 2013</p>
 			</div>
 
 			<div class="worktitle">
-				<h3>Special Projects Administrator</h3>
+				<h4>Special Projects Administrator</h4>
 				<p class="dates">July 2009 - January 2011</p>
 			</div>
 			<br>
 			<br>	
-			<h4>Stephen Burrows</h4>
+			<h3>Stephen Burrows</h3>
 			<div class="worktitle">
-				<h3>Consultant</h3>
+				<h4>Consultant</h4>
 				<p class="dates">Fall 2008 - July 2009</p>
-			</div>	 
+			</div>
 		</div>
+		<div class="titleLarge rightthere largeWork">Work</div>	 
+	</section>		
 
 <!--Skills-->
 
-		<div class="skillset">
-			<div>
-				<h4>Programs</h4>
-				<ul>
-					<li>Adobe Creative Cloud</li>
-					<li>Microsoft Suite</li>
-					<li>Google Suite</li>
-					<li>Google Analytics, Adwords, Data Studio</li>
-					<li>Slack</li>
-					<li>Asana</li>
-				</ul>	
-			</div>	
-			<div>
-				<br>
-				<h4>Project Management</h4>
-				<ul>
-					<li>File management</li>
-					<li>Content management</li>
-					<li>Process Strategy and implementation</li>
-					<li>Software implementation and change management</li>
-					<li>Social Media Strategy and content</li>
-					<li>KPI reporting</li>
-				</ul>
-			</div>
-		</div>	
-
-<!--Gallery-->
-		<div class="portfolioitems">
-			<div class="imageNav clearfix">
-			<p> Please contact me for work samples.</p>
-					<div class="portbox one">
-					</div>
-					<div class="portbox two">
-					</div>
-					<div class="portbox three">
-					</div>
-					<div class="portbox four">			
-					</div>
-					<div class="portbox five">			
-					</div>
-					<div class="portbox six">		
-					</div>
-					<div class="portbox seven">
-					</div>
-					<div class="portbox eight">
-					</div>
-					<div class="portbox nine">			
-					</div>
-			</div>	
-				<div class="galleryLarge lefty">
-					<div class ="galleryNav clearfix">	
-						<div class="btn lefty prev">prev</div>	
-						<div class="btn lefty next">next</div>
-					</div>	
-						<div class="imageCaptions">
-							<p class="imageCaption active">Bronze Tree Trophy<br> Acrylic, Plastic, Beads, Board</p>
-							<p class="imageCaption">Preserved in Time<br> Acrylic,Moss, Glass Cloche</p>
-							<p class="imageCaption">Walking Tree Red<br>Filament, Board</p>
-							<p class="imageCaption">Pink Leaves<br> Filament</p>
-							<p class="imageCaption">Preserved Rainforest tree<br>Filament, Glass Cloche</p>
-							<p class="imageCaption">Swimming in the Trees<br>Silverleaf, Filament, Acrylic, Moss, Board</p> 
-					        <p class="imageCaption">Portable Tree<br>Filament</p>
-					        <p class="imageCaption">Winter, Naked and Pale<br>Acrylic, filament, PLastic, Board</p>
-					        <p class="imageCaption">Tree NightLight<br>filament, Moss, ACrylic Box, LED lights</p>
-					    </div>
-						
-						<div class="bigImage">
-						
-							<img src="images/gallery/bronze_tree.jpg" class="active">
-	      					<img src="images/gallery/clochetree.jpg">
-					        <img src="images/gallery/walkingtree_red.jpg">
-					        <img src="images/gallery/pinkleaves.jpg">
-					        <img src="images/gallery/smallclochetree.jpg">
-					        <img src="images/gallery/tree_pond.jpg">
-					        <img src="images/gallery/treebag.jpg">
-					        <img src="images/gallery/white_tree.jpg">
-					        <img src="images/gallery/treenightlight.jpg">
-						</div>
-			
-				</div>
-
-		</div>			
-
-<!--Resume Help Text-->					
-		<div class="resumeHelpText">
-			<p>When you click the "Download Resume" button below, my resume will open in a new window.</p>
-			<br>
-			<br>
-			 	<span class="downloadRes">Download Resume</span>
+	<section class="skillset" id="skillset">
+		<div class="titleLarge">Skills</div>
+		<div class="sidebyside">
+		<div class="skilllist">
+			<h3>Project Management</h3>
+			<ul>
+				<li>Brand and Design Production</li>
+				<li>Social Media Strategy and Content</li>
+				<li>File Management and DAMs</li>
+				<li>Content Management</li>
+				<li>Process Strategy and Implementation</li>
+				<li>Software Implementation</li>
+				<li>Vendor Coordination</li>
+			</ul>
+		</div>
+		<div class="skilllist">
+			<h3>Web</h3>
+			<ul>
+				<li>Web Mockups</li>
+				<li>Front End Development</li>
+				<li>SEO/SEM</li>
+				<li>UX/UI</li>
+				<li>Web Reporting</li>
+				<li>Analytics/Adwords</li>
+				<li>Web Maintenance</li>
+			</ul>	
+		</div>
+		<div class="skilllist">
+			<h3>Design</h3>
+			<ul>
+				<li>Copy Creation and Copy Editing</li>
+				<li>Email Marketing</li>
+				<li>Content Creation</li>
+				<li>Brochure and Presentation Materials</li>
+				<li>Templates</li>
+				<li>A/V and Event Coordination</li>
+				<li>Matterport Scans</li>
+			</ul>
+		</div>
 		</div>		
-
-<!--Contact Form-->
-		<form class="contactForm">
-			<input type="hidden" name="to_email" value="samomillerdavis@gmail.com" />
-			<input type="hidden" name="to_name" value="Samo Davis" />
-			<input type="email" name="from_email" placeholder="Email Address" />
-			<input type="text" name="from_name" placeholder="Name" />
-			<form action="http://code.kimgoulbourne.com/mailto/send_email.php" method="post" target="form-success">
-  			<!-- your form fields -->
-			</form>
-			<iframe name="form-success" width="0" height="0" style="display:none"></iframe>
-		</div>				
+	</section>		
 
 
-	</section>	
-</div>	
+<!--Gallery -->
+
+	<section class="artgallery" id="artgallery">
+		<div class="gallerynav">
+			<div class="prev"><</div><div class="next">></div>
+		</div>
+
+		<div class="artImage">
+			<img src="./images/gallery/large/Abyss_1024x768.jpg" class="active"/>
+			<img src="./images/gallery/large/duplication_1024x768.jpg"/>
+			<img src="./images/gallery/large/eyes_1024x768.jpg"/>
+			<img src="./images/gallery/large/duplication_white_1024x768.jpg"/>
+			<img src="./images/gallery/large/bronze_tree_1024x768.jpg"/>
+			<img src="./images/gallery/large/clochetree_1024x768.jpg"/>
+			<img src="./images/gallery/large/drippyclimbers_1024x768.jpg"/>
+			<img src="./images/gallery/large/pinkleaves_1024x768.jpg"/>
+			<img src="./images/gallery/large/smallclochetree_1024x768.jpg"/>
+			<img src="./images/gallery/large/treefall_1024x768.jpg"/>
+			<img src="./images/gallery/large/treebag_1024x768.jpg"/>
+			<img src="./images/gallery/large/tree_pond_1024x768.jpg"/>
+			<img src="./images/gallery/large/tree_nightlight_1024x768.jpg"/>
+			<img src="./images/gallery/large/tree_walking_1024x768.jpg"/>
+			<img src="./images/gallery/large/white_tree_1024x768.jpg"/>
+		</div>
+		<div class="captiontext">
+			<p class="caption active"> Abyss - Digital Print</p>
+			<p class="caption"> Duplication - Digital Print</p>
+			<p class="caption"> Eyes - Digital Print</p>
+			<p class="caption"> Duplication - White - Digital Print</p>
+			<p class="caption"> Bronze Tree - Plastic, paint, silverleaf, beads</p>
+			<p class="caption"> Cloche Tree - Glass, plastic, paint, moss</p>
+			<p class="caption"> Drippy Climbers - Paint, canvas</p>
+			<p class="caption"> Pink Leaves - Filament</p>
+			<p class="caption"> Small Cloche Tree- Filament, glass</p>
+			<p class="caption"> Tree Fall - Plastic</p>
+			<p class="caption"> Tree Bag - Filament</p>
+			<p class="caption"> Tree Pond - Wood, Paint, filament, silverleaf</p>
+			<p class="caption"> Tree Night Light - Filament, Moss, plastic box, LED</p>
+			<p class="caption"> Walking Tree - Filament, Wood, Paint</p>
+			<p class="caption"> Winter, Naked and Pale - Plastic, Paint, Wood, filament</p>
+	</section>
+
+<!--Resume-->
+	<section class="resumedownload clearfix" id="resumedownload">
+		<p class="lefthere">When you click the "Download Bio" button below, my résumé will open in a new window.</p>
+		<br>
+		<br>
+		 	<span class="downloadRes lefthere">Download Bio</span>
+		<div class="titleLarge rightthere">Bio</div>
+	</section>		
 
 
+<!--Contact-->
+	<section class="contactform" id="contactform">
+		<div class ="letsCollaborate">
+			<h3>Contact Me</h3>
+			<p>Want to collaborate? Contact me using the form below.</p>
+		</div>
+		<form action="samowebsite.php" method="post">
+			<label for="firstname">First Name</label>
+			<input type="text" name="firstname" id="firstname" placeholder="First Name">
+			<label for="lastname">Last Name</label>
+			<input type="text" name="lastname" id="lastname" placeholder="Last Name">
+			<label for="emailaddress">Email</label>
+			<input type="email" name="emailaddress" id="emailaddress" placeholder="Email">
+			<label for="messagehere">Message</label>
+			<textarea name="messagehere" rows="5" columns="5" id="messagehere"></textarea>
+			<button class="submitemail">submit</button>
+		</form>	
+
+				
+	</main>
+	
 
 
 	<footer>
 <!--Social Media-->
 			<div class="social">
-				<div>
-					<a href="https://twitter.com/thefoodnapper"><img class="socialbutton" src="images/Twitter.png"/>@thefoodnapper</a>
-				</div>	
-				<div>
-					<a href="https://www.instagram.com/samomillerdavis/"><img class="socialbutton" src="images/Instagram.png"/>@samomillerdavis</a>
+				<div class="email">
+					<p> Contact Me:</p>
+					<p> samo@samodavis.com</p>
+				</div>
+				<div class="socialbuttontwitter"></div>
+				<div class="socialaccount">
+					<a href="https://twitter.com/thefoodnapper">@thefoodnapper</a>
+					<br><br>
+					<span class="socialbuttoninstagram"></span>
+					<a href="https://www.instagram.com/samomillerdavis/">@samomillerdavis</a>
 				</div>
 			</div>	
-	</footer>			
+	</footer>	
 
-<script type="text/javascript" src="js/style.js"></script>
+<script type="text/javascript" src="js/design.js"></script>
 </body>
 </html>
